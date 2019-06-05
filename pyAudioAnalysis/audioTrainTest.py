@@ -20,7 +20,7 @@ def signal_handler(signal, frame):
     os.system("stty -cbreak echo")
     sys.exit(0)
 
-signal.signal(signal.SIGINT, signal_handler)
+#signal.signal(signal.SIGINT, signal_handler)
 
 shortTermWindow = 0.050
 shortTermStep = 0.050
