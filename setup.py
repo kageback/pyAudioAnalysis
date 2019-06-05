@@ -15,5 +15,8 @@ setup(name='pyAudioAnalysis',
             'numpy',
             'pydub',
             'scipy',
+            'sklearn',
+            'matplotlib',
+            'hmmlearn',
       ],
       zip_safe=False)
